@@ -3,3 +3,7 @@
 -- Add any additional options here
 vim.g.autoformat = false
 vim.opt.shiftwidth = 4
+
+-- 复制到系统剪切板
+vim.g.clipboard = 'osc52'
+vim.opt.clipboard = "unnamedplus"
