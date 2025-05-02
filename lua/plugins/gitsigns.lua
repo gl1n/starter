@@ -7,7 +7,7 @@ return {
                 delay = 200,
                 virt_text_pos = "eol", -- 行尾显示
             },
-            current_line_blame_formatter = "<abbrev_sha>, <author>, <author_time:%Y-%m-%d> - <summary>",
+            current_line_blame_formatter = "    -- <abbrev_sha>, <author>, <author_time:%Y-%m-%d> - <summary>",
         },
     },
 }
